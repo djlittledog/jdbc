@@ -12,7 +12,7 @@ public class IntroduccionJDBC {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             // Creamos el objeto conexion
-            Connection conexion = (Connection) DriverManager.getConnection(url, "root", "admin");
+            Connection conexion = (Connection) DriverManager.getConnection(url, "root", "");
             // Creamos un objeto Statement
             Statement instruccion = conexion.createStatement();
             // Creamos el query
